@@ -7,7 +7,6 @@ Transformation of video from exocentric to egocentric viewpoints using various m
 
 <p align="center">
     <img src="./examples/different_methods_genvideos_Egoexo4D.gif" width=99%>
-    <img src="./examples/different_methods_genvideos_Egoexo4D.mp4" width=99%>
 </p>
 
 
