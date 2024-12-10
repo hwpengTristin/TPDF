@@ -18,7 +18,7 @@ The code is being prepared and will be open as soon as the paper is accepted. Pl
 ## Citation
 
 ```BibTeX
-@INPROCEEDINGS{,
+@INPROCEEDINGS{
   author    = {Weipeng Hu, Jiun Tian Hoe, Runzhong Zhang, Yiming Yang, Haifeng Hu, Yap-Peng Tan},
   booktitle = {xxx},
   title     = {Motion-Guided Token Prioritization and Semantic Degradation Fusion for Exo-to-Ego Cross-view Video Generation},
