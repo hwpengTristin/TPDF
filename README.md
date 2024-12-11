@@ -6,10 +6,8 @@ Exocentric (third-person) to egocentric (first-person) cross-view video generati
 Transformation of video from exocentric to egocentric viewpoints using various methods on the Assembly101 dataset. Upper part: method with target-view cues. Bottom part: method without target-view cues.
 
 <p align="center">
-    <img src="./examples/different_methods_genvideos_Egoexo4D.gif" width=99%>
+    <a href="./examples/different_methods_genvideos_Egoexo4D.mp4" style="font-size:18px;">Download or View Video (MP4)</a>
 </p>
-
-
 
 ## Inference and Training Code
 
