@@ -5,6 +5,8 @@ Exocentric (third-person) to egocentric (first-person) cross-view video generati
 
 ## Experiments Results
 
+![image](https://github.com/user-attachments/assets/e80551b9-16a3-466f-8b3f-e916984d8559)
+
 Video transformation from exocentric to egocentric viewpoints on the Assembly101 dataset. Top row: Methods with target-view cues. Bottom row: Methods without target-view cues.
 
 https://github.com/user-attachments/assets/337411cc-7502-4481-be4e-125e979a4a5f
