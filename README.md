@@ -13,7 +13,7 @@ Exocentric (third-person) to egocentric (first-person) cross-view video generati
 
 ![image](https://github.com/user-attachments/assets/489b96a1-ed32-4b63-9cd9-0ba8d5315cd9)
 
-### Qualitative Evaluation
+### Video Generation
 
 Video transformation from exocentric to egocentric viewpoints on the Assembly101 dataset. Top row: Methods with target-view cues. Bottom row: Methods without target-view cues.
 
