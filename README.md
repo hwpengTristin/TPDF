@@ -9,7 +9,9 @@ Exocentric (third-person) to egocentric (first-person) cross-view video generati
 
 ### Quantitative Evaluation
 
-![image](https://github.com/user-attachments/assets/e80551b9-16a3-466f-8b3f-e916984d8559)
+![image](https://github.com/user-attachments/assets/26253da9-a6bf-4188-be6e-ace3211363d7)
+
+![image](https://github.com/user-attachments/assets/489b96a1-ed32-4b63-9cd9-0ba8d5315cd9)
 
 ### Qualitative Evaluation
 
