@@ -82,7 +82,6 @@ def main(args_obj):
 
 
 if __name__ == '__main__':
-    # 获取脚本所在的目录
     directory = os.path.dirname(os.path.abspath(__file__)).split('/')[-2]
     import setproctitle
     setproctitle.setproctitle(directory)
