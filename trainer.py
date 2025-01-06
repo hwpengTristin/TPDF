@@ -31,7 +31,6 @@ class Trainer(metaclass=ABCMeta):
         else:
             self.startEpoch, self.currentStep = 0, 0
         if opt['distributed']:
-            print('msg 1')
             group_g = torch.distributed.new_group(ranks=[self.opt['local_rank']])
             group_d = torch.distributed.new_group(ranks=[self.opt['local_rank']])
             self.model = DDP(
@@ -41,7 +40,6 @@ class Trainer(metaclass=ABCMeta):
                 process_group=group_g, broadcast_buffers=True,
                 find_unused_parameters=True #TODO original: True  Mine: False
             )
-            print('msg 2')
             self.dist = DDP(
                 self.dist,
                 device_ids=[self.opt['local_rank']],
@@ -49,7 +47,6 @@ class Trainer(metaclass=ABCMeta):
                 process_group=group_d, broadcast_buffers=True,
                 find_unused_parameters=False #TODO original: True
             )
-            print('msg 3')
         if self.rank <= 0:
             self.logger.info('Start training from epoch: {}, iter: {}'.format(
                 self.startEpoch, self.currentStep))
@@ -188,9 +185,6 @@ class Trainer(metaclass=ABCMeta):
             self._trainEpoch(epoch)
             if self.currentStep > self.totalIterations:
                 break
-            # if self.opt['use_valid'] and (epoch + 1) % self.opt['train']['val_freq'] == 0:
-            #     self._validate(epoch)
-            #     self._validate_trainset(epoch)
             self.scheduler.step(epoch)
             self.dist_scheduler.step(epoch)
 
