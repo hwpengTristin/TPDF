@@ -27,11 +27,6 @@ class VideoBasedDataset(Dataset):
         self.flow_path = dataInfo['flow_path']  # The path of the optical flows
         self.train_list = os.listdir(self.frame_path)
         self.video_len=dataInfo['video_len']
-        # self.train_ego_list = os.listdir(self.frame_ego_path)
-        # self.train_flow_list = os.listdir(self.flow_path)
-        # self.name2length = self.dataInfo['name2len']
-        # with open(self.name2length, 'rb') as f:
-        #     self.name2length = pickle.load(f)
         self.sequenceLen = self.opt['num_frames']
         self.num_ref = self.opt['num_ref']
         self.ref_length = self.opt['ref_length']
