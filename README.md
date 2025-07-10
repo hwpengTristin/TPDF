@@ -27,6 +27,8 @@ https://github.com/user-attachments/assets/4c2a4d4d-629d-4c09-8d90-48d0175d7b04
 
 The code is being prepared and will be open as soon as the paper is accepted. Thank you for your interest!
 
+Acknowledgement: Some components of this codebase are derived from [FGT](https://github.com/hitachinsk/FGT)
+
 ## Citation
 
 ```BibTeX
