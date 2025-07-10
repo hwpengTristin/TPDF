@@ -23,6 +23,9 @@ Video transformation from exocentric to egocentric viewpoints on the Ego-Exo4D d
 
 https://github.com/user-attachments/assets/4c2a4d4d-629d-4c09-8d90-48d0175d7b04
 
+## Inference and Training Code
+
+The code is being prepared and will be open as soon as the paper is accepted. Thank you for your interest!
 
 ## Citation
 
